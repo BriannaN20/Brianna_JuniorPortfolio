@@ -13,9 +13,9 @@ body {
   font-style: light;
   font-variation-settings:
   "wdth" 100;
-  background-color: #ffc0cb;
+  background-color: #ffffff;
   color: #ffd5ed;
-  background-image: url("starry_sun.jpg");
+  /* background-image: url("starry_sun.jpg"); */
   background-size: cover;
   background-repeat: repeat-y;
   background-attachment: fixed;
@@ -45,12 +45,13 @@ body {
 }
 
 .navbar-right a {
-  color: white;
+  color: #ffaae7;
+;
   text-decoration: none;
 }
 
 .navbar-right a:hover {
-  color: #aaaaff;
+  color: #ffaae7;
 }
 
 /* =========================
@@ -70,7 +71,7 @@ body {
   margin: 2em auto;
   padding: 1.5em;
   border-radius: 12px;
-  box-shadow: 0 0 12px rgba(255, 255, 255, 0.08);
+  box-shadow: 0 0 12px rgb(255, 255, 255);
 }
 
 /* =========================
@@ -87,7 +88,7 @@ body {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 3px solid #5555aa;
+  border: 3px solid #d356b2;
   object-fit: cover;
 }
 
@@ -97,7 +98,7 @@ body {
 
 .bio-text h4 {
   margin-top: 0;
-  color: #ccccff;
+  color: #d356b2;
 }
 
 /* =========================
@@ -120,19 +121,19 @@ body {
 
 .reflection {
   flex: 1;
-  background-color: rgba(255, 255, 255, 0.04);
-  padding: 1em;
+  background-color: rgba(255, 169, 202, 0.844);
+  padding: 1em; 
   border-radius: 8px;
 }
 
 .reflection h3 {
   margin-top: 0;
-  color: #aaaaff;
+  color: #ff8fba;
 }
 
 .reflection p {
   font-size: 0.95em;
-  color: #dddddd;
+  color: #ffffff;
 }
 
 /* =========================
@@ -167,7 +168,7 @@ body {
 footer {
   text-align: center;
   font-size: 0.85em;
-  color: #cccccc;
+  color: #ffffff;
 }
 
 /* =========================
