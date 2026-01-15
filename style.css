@@ -57,30 +57,30 @@ body {
 /* hero / main image */
 .hero {
   max-width: 1400px;
-  margin: 90px auto 0;
-  padding: 20px;
+  /*margin: 90px auto 0;*/
+  padding: 30px;
   background: white;
   position: relative;
   overflow: hidden;
 }
 
 .hero-card {
-  box-sizing: border-box; 
-  padding: 0; 
-  min-height: auto;
+ /* box-sizing: border-box; */
+  padding: 20px; 
+  min-height: 100%;
 }
 
 
 .hero img {
   width: 100%;
-  height: auto;
+  height: 100%;
   display: block;
 }
 
 .hero-name {
   position: relative;
-  bottom: 550`  px;
-  left: 400px;
+  bottom: 275px;
+  left: 25%;
 
   font-family: 'Instrument Serif', sans-serif;
   font-size: 4rem;
@@ -94,8 +94,8 @@ body {
 
 .section {
   max-width: 1200px;
-  margin: 0 auto;
-  padding: 60px 2rem;
+  margin: center;
+  padding: 0px 30px;
 }
 
 /* =========================
