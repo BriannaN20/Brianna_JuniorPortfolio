@@ -14,7 +14,7 @@ body {
   font-style: light;
   font-variation-settings: "wdth" 100;
   background-color: #ffffff;
-  background-size: block;
+  color:#f4a6b8;
   background-repeat: repeat-y;
   background-attachment: fixed;
   margin-bottom: 60px;
@@ -36,9 +36,10 @@ body {
   z-index: 10;
 }
 
-.logo {
-  font-size: 1.4rem;
-  color: #f4a6b8;
+.logo img {
+  max-width: 5%;
+  height: auto;
+  display: block;
 }
 
 .nav-links {
@@ -62,6 +63,8 @@ body {
   margin: 20px;
   padding: 20px; 
   margin-top: 50px;
+  position: relative;
+  overflow: hidden;
 }
 
 .hero-card {
@@ -78,9 +81,9 @@ body {
 }
 
 .hero-name {
-  position: absolute;
-  bottom: 150px;
-  left: 300px;
+  position: relative;
+  bottom: 500px;
+  left: 25%;
 
   font-family: 'Instrument Serif', sans-serif;
   font-size: 4rem;
@@ -93,8 +96,9 @@ body {
 }
 
 .section {
-  min-height: 100vh;
-  padding: 100px 15%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 60px 2rem;
 }
 
 /* =========================
@@ -110,17 +114,15 @@ body {
    CARDS
 ========================= */
 .resource-card {
-  position: fixed; 
-  bottom: 0;      
-  left: 0;      
-  width: 100%; 
-  background-color: #ffffff; 
+  position: relative;
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #ffffff;
   color: #f4a6b8;
-  text-align: center; 
-  padding: 10px 0; 
-  height: 40px;
   border-radius: 12px;
 }
+
 
 /* =========================
    BIO SECTION
@@ -213,6 +215,20 @@ body {
 /* =========================
    FOOTER
 ========================= */
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  background: white;
+  color: #f4a6b8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.85rem;
+  z-index: 20;
+}
   
 /* =========================
    RESPONSIVE
