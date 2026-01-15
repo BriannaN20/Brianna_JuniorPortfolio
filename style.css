@@ -56,13 +56,10 @@ body {
 
 /* hero / main image */
 .hero {
-  min-height: 100vh;
-  display: block;
-  background: white; 
-  max-width: 1200px; 
-  margin: 20px;
-  padding: 20px; 
-  margin-top: 50px;
+  max-width: 1400px;
+  margin: 90px auto 0;
+  padding: 20px;
+  background: white;
   position: relative;
   overflow: hidden;
 }
@@ -75,15 +72,15 @@ body {
 
 
 .hero img {
-  max-width: 100%;
+  width: 100%;
   height: auto;
   display: block;
 }
 
 .hero-name {
   position: relative;
-  bottom: 500px;
-  left: 25%;
+  bottom: 550`  px;
+  left: 400px;
 
   font-family: 'Instrument Serif', sans-serif;
   font-size: 4rem;
