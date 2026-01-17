@@ -14,9 +14,6 @@
   <!-- Main stylesheet -->
   <link rel="stylesheet" href="style.css" />
 
-  <!-- Optional favicon (put your icon file in the same folder) -->
-  <link rel="icon" type="image/x-icon" href="favicon.png" />
-
   <!-- Optional fonts (only keep if your CSS uses them) -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -29,15 +26,19 @@
   <header>
     <nav class="navbar">
     <div class="logo">
+    <a href="index.html">
     <img src="logo.png" alt="Logo">
+    </a>
     </div>
     <ul class="nav-links">
       <li><a href="#About">About</a></li>
       <li><a href="#Links">Links</a></li>
-      <li><a href="projects.html">Projects</a></li>
-      <li><a href="#contact.html">Contact</a></li>
+      <li><a href="#Projects">Projects</a></li>
+      <li><a href="cfus.html">CFUs</a></li>
+      <li><a href="#Contact">Contact</a></li>
     </ul>
   </nav>
+  </header>
 
   <!-- big image -->
   <section class="hero">
@@ -51,7 +52,7 @@
     <p class="bold-text">Student at Thomas A. Edison Career and Technical High School</p>
     <p>I’m a student developer using Python as a tool for learning and personal growth. This portfolio highlights my progress over time, showing how my skills, problem-solving, and confidence have developed through hands-on projects. It’s intended for teachers and peers as a way to share both my work and my learning process. Each project reflects my focus on improvement, experimentation, and building stronger coding habits.</p>
   </section>
-  </header>
+  
 
   <!-- MAIN CONTENT -->
   <main class="home-card">
@@ -60,7 +61,7 @@
     <!-- ABOUT / BIO CARD -->
 
     <!-- QUICK LINKS CARD (optional) -->
-    <section class="resource-card">
+    <section id="Links" class="resource-card">
       <h2>Links</h2>
       <p>Old Portfolio, Email, Linkedin</p>
 
@@ -89,8 +90,9 @@
     </section>
 
     <!-- PROJECTS SECTION (repeatable blocks) -->
-    <section class="resource-card">
+    <section id="Projects" class="resource-card">
       <h2>Featured Projects</h2>
+        <a href="projects.html" class="project-button">See All Projects →</a>
       </section>
 
     <!-- PROJECT 1 -->
@@ -99,11 +101,11 @@
         <iframe src="https://py3.codeskulptor.org/?authuser=0#user310_2EQfV8xYPZFVrzr.py" title="Holiday Animation"></iframe>
 
         <div class="reflection">
-          <h3>Silly Sentences</h3>
+          <h3>Holiday Animation</h3>
           <p>
-            Paste your curated reflection for Project 1 here (3–5 sentences).
+            This project helped me explore animation by combining shapes, movement, and repetition. I learned how loops and timing create smooth motion on the screen. Designing a themed scene allowed me to be creative while still following logical steps. It also improved my understanding of visual programming concepts.
           </p>
-          <p><strong>Skills:</strong> HTML, CSS, Flexbox (edit based on your guide)</p>
+          <p><strong>Skills:</strong> Loops, animation logic, visual design, timing, creativity</p>
         </div>
       </div>
     </section>
@@ -111,14 +113,14 @@
     <!-- PROJECT 2 -->
     <section class="resource-card">
       <div class="project">
-        <iframe src="PASTE-PROJECT-LINK-2" title="Room Area"></iframe>
+        <iframe src="https://py3.codeskulptor.org/#user311_nmwoZMkSbdq2xym.py" title="Silly Sentences"></iframe>
 
         <div class="reflection">
-          <h3>Room Area</h3>
+          <h3>Silly Sentences</h3>
           <p>
-            Paste your curated reflection for Project 2 here (3–5 sentences).
+            This project helped me practice using user input and variables to create a fun and interactive program. I learned how different inputs can be stored and combined into a final output. It showed me how code can be creative, not just technical. Debugging small mistakes also helped me improve my attention to detail.
           </p>
-          <p><strong>Skills:</strong> (list skills here)</p>
+          <p><strong>Skills:</strong> User input, variables, string manipulation, creativity, debugging</p>
         </div>
       </div>
     </section>
@@ -126,6 +128,17 @@
     <!-- Add more projects by copying PROJECT blocks -->
 
   </main>
+
+  <!-- CONTACT SECTION -->
+<section id="Contact" class="resource-card">
+  <h2>Contact</h2>
+  <p class="bold-text">Brianna Nunez</p>
+
+  <!-- Email button -->
+  <a href="mailto:briannan76@nycstudents.net" class="project-button">Email Me</a>
+
+  <p style="margin-top: 1em;">Phone: xxx-xxx-xxxx</p>
+</section>
 
   <!-- FOOTER -->
   <footer class="footer">
